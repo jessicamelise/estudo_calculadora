@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculadora.css">
+    
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <div>
+        <table>
+            <tr>
+                <td colspan="4" class="display">
+                    <label id="display">0</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="takeNumber('7')">7</button>
+                </td>
+                <td>
+                    <button onclick="takeNumber('8')">8</button>
+                </td>
+                <td>
+                    <button onclick="takeNumber('9')">9</button>
+                </td>
+                <td>
+                    <button onclick="memory('/')">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="takeNumber('4')">4</button>
+                </td>
+                <td>
+                    <button onclick="takeNumber('5')">5</button>
+                </td>
+                <td>
+                    <button onclick="takeNumber('6')">6</button>
+                </td>
+                <td>
+                    <button onclick="memory('*')">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="takeNumber('1')">1</button>
+                </td>
+                <td>
+                    <button onclick="takeNumber('2')">2</button>
+                </td>
+                <td>
+                    <button onclick="takeNumber('3')">3</button>
+                </td>
+                <td>
+                    <button onclick="memory('-')">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="resetDisplay('C')">C</button>
+                </td>
+                <td>
+                    <button onclick="takeNumber('0')">0</button>
+                </td>
+                <td>
+                    <button onclick="result('=')">=</button>
+                </td>
+                <td>
+                    <button onclick="memory('+')">+</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
