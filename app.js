@@ -21,13 +21,13 @@ function memory(operator) {
 
 function result(buttonEqual) {
     memoryValueOne = displayValue;
-    if (buttonEqual === "=" & memoryOperator === "/") {
+    if (buttonEqual === "=" && memoryOperator === "/") {
         totalValue = memoryValueTwo / memoryValueOne;
-    } if (buttonEqual === "=" & memoryOperator === "*") {
+    } if (buttonEqual === "=" && memoryOperator === "*") {
         totalValue = memoryValueTwo * memoryValueOne;
-    } if (buttonEqual === "=" & memoryOperator === "-") {
+    } if (buttonEqual === "=" && memoryOperator === "-") {
         totalValue = memoryValueTwo - memoryValueOne;
-    } if (buttonEqual === "=" & memoryOperator === "+") {
+    } if (buttonEqual === "=" && memoryOperator === "+") {
         totalValue = parseInt (memoryValueTwo) + parseInt (memoryValueOne);
     }
     displayValue = totalValue;
